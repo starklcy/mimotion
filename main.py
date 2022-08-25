@@ -225,7 +225,7 @@ def main(_user,_passwd,min_1, max_1):
     user = str(_user)
     password = str(_passwd)
     step = str(step1)
-    if user == '17797714092' or password == 'luohualiushui322':
+    if user == '' or password == '':
         print("用户名或密码填写有误！")
         return
 
